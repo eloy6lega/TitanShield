@@ -6,10 +6,10 @@ export default function About() {
       <Header2 />
       <hr />
       <br />
-      <h1 className="text-primary text-5xl">Sobre Nosotros</h1>
-      <div className="flex w-full justify-center items-center">
+      <h1 className="text-primary text-5xl text-center">Sobre Nosotros</h1>
+      <div className="flex flex-col md:flex-row justify-center items-center">
         <div
-          className="flex flex-col gap-7 w-1/2"
+          className="flex flex-col gap-7 w-full md:w-1/2"
           style={{ padding: "30px", margin: "20px" }}
         >
           <h1 className="font-extralight text-2xl">Contáctanos!</h1>
@@ -32,7 +32,7 @@ export default function About() {
                 Tema
               </option>
               <option>Mejora de la web</option>
-              <option>Crítica constructuva</option>
+              <option>Crítica constructiva</option>
               <option>Comentario</option>
             </select>
           </div>
@@ -41,7 +41,7 @@ export default function About() {
             placeholder="Mensaje"
           ></textarea>
 
-          <div className=" flex items-center gap-2 rating">
+          <div className="flex items-center gap-2 rating">
             <input
               type="radio"
               name="rating-2"
@@ -70,9 +70,11 @@ export default function About() {
             />
             <p>(Doble Clic)</p>
           </div>
-          <button className="btn btn-outline btn-info">Enviar</button>
+          <button className="btn btn-outline btn-info w-full md:w-auto">
+            Enviar
+          </button>
         </div>
-        <div className="w-1/3 font-extralight text-2xl">
+        <div className="w-full md:w-1/3 font-extralight text-2xl">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             auctor, nunc id ultrices tincidunt, nisl nunc tincidunt urna, vel

@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+@media (max-width: 768px) {
+  #main-content {
+      margin-top: 5%;
+  }
+  
+  img.logo {
+      width: 200px;
+  }
+  
+  h1 {
+      font-size: 50px;
+  }
+  
+  h3 {
+      font-size: 20px;
+  }
+}
