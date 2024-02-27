@@ -74,13 +74,37 @@ export default function About() {
             Enviar
           </button>
         </div>
-        <div className="w-full md:w-1/3 font-extralight text-2xl">
+        <div className="w-full md:w-1/3 font-extralight text-l">
+          <br />
+          <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            auctor, nunc id ultrices tincidunt, nisl nunc tincidunt urna, vel
-            tincidunt nunc nunc id nunc. Sed id semper nisl. Nulla facilisi. Sed
-            nec nunc ac nunc tincidunt lacinia. Sed id semper nisl. Nulla
-            facilisi. Sed nec nunc ac nunc tincidunt lacinia.
+            <strong>Misión: </strong>
+            Somos una empresa global que ofrece cursos de ciberseguridad a
+            empresas de diversos sectores. Nuestra misión es capacitar a los
+            trabajadores para proteger la información y los activos digitales de
+            sus organizaciones mediante formación especializada y práctica,
+            destacándonos por nuestra constante actualización, calidad de
+            formación y servicios complementarios de seguridad digital.
+          </p>
+          <br />
+          <p>
+            <strong>Visión: </strong>
+            Nuestra visión es liderar el mercado global de ciberseguridad,
+            ofreciendo soluciones integrales y formación de vanguardia para
+            empresas de todos los sectores. Buscamos expandir nuestra presencia
+            geográfica y desarrollar un equipo altamente capacitado,
+            manteniéndonos a la vanguardia de la tecnología y colaborando
+            estrechamente con líderes en el campo.
+          </p>
+          <br />
+          <p>
+            <strong>Valores: </strong>
+            Nuestros valores se centran en la excelencia, la integridad, el
+            empoderamiento a través del conocimiento, la innovación, la
+            colaboración y la adaptabilidad. Buscamos la excelencia en todo lo
+            que hacemos, actuamos con integridad, capacitamos a empresas y
+            empleados, innovamos constantemente, colaboramos estrechamente y nos
+            adaptamos ágilmente a los cambios en la ciberseguridad.
           </p>
         </div>
       </div>
